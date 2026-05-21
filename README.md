@@ -1,4 +1,3 @@
-# LAB-13-Bypass-de-la-D-tection-de-Root-Android-avec-Objections
 # LAB 13 — Bypass de la Détection de Root Android avec Objection
 
 > **Module :** Sécurité Mobile Android  
@@ -43,6 +42,9 @@
 | Émulateur | Android 8.1.0 (API 27) rooté |
 | App cible | OWASP UnCrackable Level 1 |
 
+<img width="899" height="191" alt="image" src="https://github.com/user-attachments/assets/8d8da6ba-430c-4223-8c40-fbf1448af48d" />
+
+
 ### Télécharger l'application cible
 
 ```
@@ -83,6 +85,8 @@ objection: 1.12.4
 List of devices attached
 emulator-5554   device
 ```
+<img width="880" height="107" alt="image" src="https://github.com/user-attachments/assets/8f66ad41-c255-41a4-a622-6888be54479f" />
+
 
 ### 1.3 Installer l'APK sur l'émulateur
 
@@ -324,6 +328,7 @@ frida -U -f owasp.mstg.uncrackable1 -l bypass.js
 # Bonus — trace native
 frida-trace -U -f owasp.mstg.uncrackable1 -i "*root*"
 ```
+<img width="557" height="241" alt="image" src="https://github.com/user-attachments/assets/85cfbc19-8ab1-4b1b-8f13-feb7155f214f" />
 
 ---
 
